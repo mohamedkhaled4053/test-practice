@@ -19,6 +19,6 @@ it('test', () => {
 
   writeData(data, fileName);
 
-  // expect(writeData(data, fileName)).resolves.toBeUndefined()
+//   expect(writeData(data, fileName)).resolves.toBeUndefined()
   expect(fs.writeFile).toBeCalled();
 });
